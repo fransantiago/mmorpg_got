@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>MMORPG - Game of Thrones</title>
+		<script src="js/jquery.js"></script>
+		<link rel="stylesheet" href="libs/bootstrap/index.css">
+		<link href="css/index.css" rel="stylesheet">
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-sm sticky-top bg-light">
+			<div class="container d-flex flex-column">
+				<% if(errors.length){ %>
+					<div class="container alert alert-danger">
+						<strong>ATENÇÃO!</strong>
+						<ul>
+							<% errors.forEach(error => { %>
+								<li><%= error.msg %></li>
+							<% }); %>
+						</ul>
+					</div>
+				<% } %>
+
+				<form class="form-inline col-12" action="/autenticar" method="POST">
+					<div class="form-group">
+						<label for="username">Usuário: </label>
+						<input type="text" name="username" id="username" placeholder="Informe o usuário" class="form-control mr-3" required>
+					</div>
+					<div class="form-group">
+						<label for="password">Senha: </label>
+						<input type="password" name="password" id="password" placeholder="Informe a senha" class="form-control mr-3" required>
+					</div>
+					<button type="submit" class="btn btn-success mr-3 col-sm-1">Entrar</button>
+					<button type="button" class="btn btn-info col-sm-1"> <a href="/cadastro">Cadastro</a></button>
+				</form>
+			</div>
+		</nav>
+	    <div class="container-fluid d-flex justify-content-center align-items-center" id="got-image-section">
+			<img src="images/game_of_thrones_logo.jpg" />
+	    </div>
+	</body>
+</html>

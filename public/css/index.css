@@ -1,0 +1,18 @@
+body {
+	background: #010101;
+}
+
+label {
+    margin-right: 1rem;
+    color: #777;
+}
+
+#got-image-section {
+    height: 91vh;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+

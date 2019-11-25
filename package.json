@@ -1,0 +1,25 @@
+{
+  "name": "mmorpg_got",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.7",
+    "consign": "^0.1.6",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "express-validator": "^6.3.0",
+    "mongoose": "^5.7.12"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  }
+}

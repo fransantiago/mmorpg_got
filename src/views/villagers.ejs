@@ -1,0 +1,27 @@
+<div id="aldeoes">
+	<h3 class="ml-2">Aldeões</h3>
+	<form class="form-cadastro ml-2" action="ordenar_suditos" method="POST">
+		<div class="row">
+			<div class="col-sm-5 form-group">
+				<select class="form-control" name="action" required>
+					<option value="">Escolha uma ação</option>
+					<option value="1">Coletar recursos (2G e 1H)</option>
+					<option value="2">Enforcar aldeão (3G e 2H)</option>
+					<option value="3">Ensinar história (1G e 5H)</option>
+					<option value="4">Ensinar magia (1G e 5H)</option>
+				</select>										
+			</div>
+			<div class="col-sm-3 form-group">
+				<input type="number" class="form-control" id="quantity" name="quantity" min="1" placeholder="Quantidade" required>
+			</div>
+			<div class="col-sm-4 form-group">
+				<input type="submit" class="btn btn-primary" value="Ordenar">
+			</div>
+		</div>
+	</form>
+	<div class="row">
+		<div class="col-sm-12 ml-2">
+			<p>Senhor, você possui 8 aldeões desocupados e 2 aldeões em atividade.</p>
+		</div>
+	</div>
+</div>

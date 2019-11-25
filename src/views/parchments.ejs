@@ -1,0 +1,25 @@
+<div id="pergaminhos">
+	<h3 class="ml-2">Pergaminhos</h3>
+	<ul>
+		<% 
+			const msgsBasedOnActionValue = [
+				'aldeão(ões) coletando recursos',
+				'enforcamento(s) programado(s)',
+				'aldeão(ões) em tratamento de história',
+				'aldeão(ões) em tratamento de magia'
+			];
+			const currentTime = Date.now();
+		%>
+		<% acoes.forEach(acao => { %>
+			<%	const endTask = new Date(acao.endsIn).getTime() %>
+			<%	const remainingTime = Math.round((endTask - currentTime)/1000) %>
+			<li>
+				<%= acao.quantity %> <%= msgsBasedOnActionValue[ parseInt(acao.action)-1 ] %> - 
+				<small>
+					restam <span class="remaining-time"><%= remainingTime < 0 ? 0 : remainingTime %></span> segundos - 
+					<a href="#" onclick="deleteOrder('<%= acao._id %>')">revogar ordem</a>
+				</small>
+			</li>
+		<% }); %>
+	</ul>
+</div>

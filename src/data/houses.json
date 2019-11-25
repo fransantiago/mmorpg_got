@@ -1,0 +1,56 @@
+{
+    "arryn": {
+        "fear": 11,
+        "wisdom": 825,
+        "trade": 433,
+        "magic": 987
+    },
+    "baratheon": {
+        "fear": 563,
+        "wisdom": 115,
+        "trade": 476,
+        "magic": 4
+    },
+    "greyjoy": {
+        "fear": 619,
+        "wisdom": 959,
+        "trade": 505,
+        "magic": 682
+    },
+    "lannister": {
+        "fear": 43,
+        "wisdom": 8,
+        "trade": 81,
+        "magic": 348
+    },
+    "martell": {
+        "fear": 112,
+        "wisdom": 722,
+        "trade": 605,
+        "magic": 781
+    },
+    "stark": {
+        "fear": 894,
+        "wisdom": 427,
+        "trade": 559,
+        "magic": 951
+    },
+    "targaryen": {
+        "fear": 455,
+        "wisdom": 588,
+        "trade": 299,
+        "magic": 556
+    },
+    "tully": {
+        "fear": 226,
+        "wisdom": 466,
+        "trade": 12,
+        "magic": 136
+    },
+    "tyrell": {
+        "fear": 766,
+        "wisdom": 285,
+        "trade": 836,
+        "magic": 613
+    }
+}

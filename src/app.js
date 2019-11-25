@@ -23,7 +23,7 @@ app.use(express.static("public"));
 
 app.use(expressSession(SESSIONOPTIONS));
 
-mongoose.connect("mongodb://localhost:27016/got", {
+mongoose.connect("mongodb://localhost:27017/got", {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });

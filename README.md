@@ -1,6 +1,6 @@
 # G.O.T MMORPG
 
-A MMORPG project based on [Game of Thrones](https://en.wikipedia.org/wiki/Game_of_Thrones) TV series. This application was made with Node.js and many other features - see ["Build With"](#built-with) section for more details.
+A MMORPG project based on [Game of Thrones](https://en.wikipedia.org/wiki/Game_of_Thrones) TV series. This application was made with Node.js and many other features - see ["Built With"](#built-with) section for more details.
 
 ## GETTING STARTED 🚀
 
@@ -55,7 +55,7 @@ You will "get" the login page as follows (language: pt-br):
 
 ![Login Page](./screenshots/index-page.png)
 
-## BUILT WITH 🛠️
+## BUILT WITH
 
 - [Bcrypt](https://github.com/kelektiv/node.bcrypt.js) - A library to help you hash passwords.
 - [Bootstrap](https://getbootstrap.com/) - An open source toolkit for developing with HTML, CSS and JS.
